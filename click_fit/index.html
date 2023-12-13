@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Image Upload</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <!-- Your custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="position-relative " >
+<section class="header">
+  <nav class="navbar navbar-expand-lg  navbar-dark bg-transparent fixed-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold " href="#">Click<span class="text__orange fw-bold">Fit</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end side__bar" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title fw-bold" id="offcanvasDarkNavbarLabel">Click<span class="text__orange fw-bold">Fit</span></h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body bg-transparent  ">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mx-5 ">
+            <li class="nav-item d-flex justify-content-center align-content-center px-2 ">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item d-flex justify-content-center align-content-center px-2">
+              <a class="nav-link " aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item d-flex justify-content-center align-content-center px-2">
+              <a class="nav-link " aria-current="page" href="#">Contact</a>
+            </li>
+            <li class="nav-item d-flex justify-content-center align-content-center px-2">
+              <button class="btn bg-orange">Sign Up</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</section>
+<section class="hero py-5 py-lg-5 h-100 my-5 text-white position-relative ">
+  <div class="container-fluid my-5  py-5">
+    <marquee id="content" class="position-absolute"></marquee>
+    <div class="p-5 text-center rounded-3 py-5 ">
+      <h1 class="hero__title1">BUILD YOUR </h1>
+      <h1 class="hero__title2">BODY STRONG</h1> 
+      <div class="d-inline-flex gap-2 mb-5">
+        <button class="scaleUp__animation d-inline-flex align-items-center btn bg-orange btn-lg px-4  my-5 rounded" type="button">
+          Join Now
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="feature d-flex flex-column col-6 mx-auto flex-lg-row justify-content-center align-content-center gap-2 pb-5 ">
+  <div class="card card__1 ">
+    <div class="card-body d-flex justify-content-center align-content-center flex-column  text-center  ">
+      <span class="card__image" ><i class='bx bx-cycling'></i> </span> 
+      <h4 class="card-title">Cardio traing seasons</h4>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, praesentium!</p>
+      <button class="btn btn-organe"><i class='bx bx-right-arrow-alt'></i> </button>
+    </div>
+  </div>
+  <div class="card card__2 ">
+    <div class="card-body d-flex justify-content-center align-content-center flex-column  text-center  ">
+    <span class="card__image" ><i class='bx bx-cycling'></i> </span> 
+    <h4 class="card-title">Cardio traing seasons</h4>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, praesentium!</p>
+    <button class="btn btn-organe"><i class='bx bx-right-arrow-alt'></i> </button>
+  </div>
+  </div>
+  <div class="card card__1 ">
+    <div class="card-body d-flex justify-content-center align-content-center flex-column  text-center  ">
+      <span class="card__image" ><i class='bx bx-cycling'></i> </span> 
+      <h4 class="card-title">Cardio traing seasons</h4>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, praesentium!</p>
+      <button class="btn btn-organe"><i class='bx bx-right-arrow-alt'></i> </button>
+    </div>
+  </div>
+</section>
+
+<section class="video__section">
+  <div class="video__content ">
+    <div class="d-flex justify-content-center align-content-center">
+      <img class="video__image" src="./dist/images/victor-freitas-WvDYdXDzkhs-unsplash.jpg" alt=""> 
+    </div>
+    <button class=" btn bg-orange play__button d-flex  justify-content-center align-content-center"><i class='bx bx-play h2'></i></button>
+  
+  </div>
+</section>
+
+
+ <section class="contact__us d-flex justify-content-center align-content-center flex-column flex-lg-row  gap-lg-5 ">
+  <div class="d-flex justify-content-center align-content-center text-center   flex-column  py-5  mx-3 mx-lg-5 my-5 ">
+    <h4 class="text-uppercase  ">Become a champ!!!</h4>
+    <h1 class="text-uppercase ">Show your body</h1>
+    <div>
+      <button class="btn bg-orange scaleUp__animation">Get upto 89% off</button>
+    </div>
+    
+  </div>
+  <div id="dropArea" class="d-flex justify-content-center align-content-center flex-column py-5 mx-3 mx-lg-5 my-5 ">
+    <div class="p-5">
+      <p>Drag & Drop images here or click to upload</p>
+    <input type="file" id="fileInput" multiple>
+    </div>
+  </div>
+
+ </section>
+
+ <section> 
+  <footer class="pt-4 mx-5 mx-lg-5  my-md-5 pt-md-5 ">
+    <div class="row">
+      <div class="col-12 col-md">
+        <h3>ClickFit</h3>
+        <small class="d-block mb-3">&copy; 2017–2023</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Features</h5>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>About</h5>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+ </section> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="scripts.js"></script>
+</body>
+
+</html>
+
